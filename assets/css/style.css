@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.page-padding{
+    padding: 100px 0px;
+}
+
+:root{
+    --black-color: #000000;
+    --white-color: #ffffff;
+    --gray-color: #cccccc;
+    --red-color: red;
+
+}
+
+.navbar{
+    background-color: var(--black-color);
+}
+
+.nav-link{
+    color: var(--white-color);
+}
+
+.nav-link:hover{
+    color: var(--red-color);
+}
+
+.navbar-brand img{
+    width: 160px;
+}
+
+.btn-success{
+    background-color: tomato;
+    color:var(--white-color);
+    border: 1px solid transparent !important;
+}
+
+.btn-success:hover{
+    background-color: transparent;
+    color: tomato;
+    border: 1px solid tomato !important;
+}
+
+.dropdown-menu{
+    background-color:var(--black-color);
+  
+}
+
+.dropdown-item{
+  color: var(--white-color) 
+}
+
+.dropdown-menu .nav-link{
+     color: var(--white-color);
+}
